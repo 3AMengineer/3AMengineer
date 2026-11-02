@@ -30,10 +30,12 @@ When the robot misbehaves, I check frames, timestamps, covariances and the physi
 | Project | What it is |
 |---|---|
 | [**UAS-DTU Rover Autonomy**](https://github.com/3AMengineer/UAS-DTU-Rover-Autonomy) *(team)* | Autonomy stack of our DARPA Triage Challenge rover: 3D LiDAR → LiDAR-inertial odometry → Nav2 → velocity control → MAVROS → ArduRover |
+| [**ardurover-adaptive-velocity-controller**](https://github.com/3AMengineer/ardurover-adaptive-velocity-controller) | ROS 2 layer between Nav2 and ArduPilot that adapts its gains online, with separate left/right turn gains, field-tested on the DARPA rover |
+| [**vins-fusion-d455-allan-variance**](https://github.com/3AMengineer/vins-fusion-d455-allan-variance) | VINS-Fusion on a RealSense D455 with Allan-variance IMU noise models and online camera–IMU time-offset logging |
 | [**apf-navigation**](https://github.com/3AMengineer/apf-navigation) | Artificial Potential Field obstacle avoidance in ROS 2 on 2D LiDAR and a depth camera (depth → virtual laser scan) |
 | [**four_wheel_diff_drive**](https://github.com/3AMengineer/four_wheel_diff_drive) | 4-wheel differential-drive rover built from scratch in ROS 2/Gazebo: URDF, 360° LiDAR, D455-style depth camera |
 | [**UAV-Navigation-on-SITL**](https://github.com/3AMengineer/UAV-Navigation-on-SITL) | Autonomous UAV missions in ArduPilot SITL with DroneKit: takeoff, waypoints, square/circle trajectories, PID position control |
-| [**Pravah**](https://github.com/AkshitGarg16/Pravah) *(team, SIH 2026)* | SUMO digital twin of Delhi's ITO corridor with adaptive signal control; I built the simulation layer |
+| [**Pravah**](https://github.com/3AMengineer/Pravah) *(team, SIH 2026)* | SUMO digital twin of Delhi's ITO corridor with adaptive signal control; I built the simulation layer |
 
 ## Tools
 
